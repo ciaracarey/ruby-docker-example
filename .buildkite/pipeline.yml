@@ -1,4 +1,6 @@
 steps:
+  - name: "TEST"
+    command: "pip install cloudsmith"
   - name: ":rspec:"
     command: "rspec --color specs"
     plugins:
